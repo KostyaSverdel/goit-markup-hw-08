@@ -1,0 +1,60 @@
+@media screen and (max-width: 767px) {
+    .section-style__about-us {
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .section-style__about-us {
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px) {
+ 
+        .section-style__about-us {
+            display: flex;
+            padding-top: 94px;
+        }
+    
+        .images__about-us {
+            position: relative;
+            display: flex;
+            column-gap: 30px;
+            align-items: center;
+            padding-bottom: 94px;
+        }
+    
+        .list__about-us {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            width: 370px;
+            height: 70px;
+            background: rgba(47, 48, 58, 0.8);
+            top: 224px;
+        }
+    
+        .title__about-us {
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            color: var(--bacground-color);
+        }
+    
+        .list-images-work {
+            font-size: 36px;
+            line-height: 1.1;
+            letter-spacing: 0.03em;
+            color: var(--titel-link-color);
+    margin-left: 400px;
+    margin-right: 400px;
+
+            &.work-process {
+    margin-left: 400px;
+    margin-right: 400px;
+            }
+        }
+}

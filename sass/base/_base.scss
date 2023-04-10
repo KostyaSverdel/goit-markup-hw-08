@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0px;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 101%;
+    height: auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--titel-link-color);
+}
+
+header {
+    border-bottom: 1px solid #ececec;
+}
+ul {
+    list-style: none;
+}

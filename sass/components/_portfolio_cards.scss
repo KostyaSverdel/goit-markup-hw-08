@@ -1,0 +1,22 @@
+.portfolio__cards {
+    padding: 20px 24px;
+}
+.card-title__portfolio {
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--titel-link-color);
+}
+
+.card-sub-title__portfolio {
+    font-size: 16px;
+    line-height: 2.2;
+    letter-spacing: 0.03em;
+    color: var(--contacts-link-color);
+}
+.cards-style__portfolio {
+    width: 370px;
+    background: var(--bacground-color);
+    border: 1px solid var(--border-portfolio-pic);
+}

@@ -1,0 +1,56 @@
+.conta-ic {
+    margin-right: 10px;
+
+    &:hover,
+        &:focus {
+            color: var(--hovers-and-logo-color);
+        }
+}
+
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.social-list-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.social-list-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--bacground-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--social-icon-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--hovers-and-logo-color);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: var(--bacground-color);
+}
+
+.social-footer-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--bacground-color);
+}
+
+.footer-adr {
+    display: flex;
+}
+
+.address {
+    margin-top: 20px;
+}
